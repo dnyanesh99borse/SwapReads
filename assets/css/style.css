@@ -1651,6 +1651,11 @@ body.dark-mode .pricing-card button {
   font-family: Montserrat;
 }
 
+.contact-form label:hover{
+  color: #c36969;
+  text-decoration: underline;
+}
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -1681,6 +1686,7 @@ body.dark-mode .pricing-card button {
 .contact-form button:hover {
   border: 1px solid #c36969;
   background-color: #f24a8a;
+  border: 1px dashed red;
 }
 
 /* Image fader styling */
@@ -1697,6 +1703,7 @@ body.dark-mode .pricing-card button {
   top: 0;
   left: 0;
   opacity: 0;
+  filter: drop-shadow(2px 2px 2px black);
   animation-name: imagefade;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
